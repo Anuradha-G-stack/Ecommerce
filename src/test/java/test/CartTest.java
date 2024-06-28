@@ -44,29 +44,31 @@ import utility.Reports;
 	 	Double ExpectedPrice=productResultPage.getProductPriceOnQuickView();
 	 	Double ExpectedShipping=productdetailspage.getShippingPrice();
 	 	productdetailspage.clickToClickhereToBuyProduct();
-		CartPage cartPage=new CartPage(driver);
+	 	productResultPage.verifyUserIsAbleToClickOnContinueShopping();
         naaptalhomepage.enterProductTosearch("toys");
 		naaptalhomepage.ClickOnsearch();	  
 		productResultPage.selectDesiredProduct(0);
 		
 		switchToChildBrowser();
 		productdetailspage.clickToClickhereToBuyProduct();
+		CartPage cartPage=new CartPage(driver);
+
+		 Assert.assertNotEquals(productResultPage.NoOfProductInCart(),0);
 		String Expectedname1=productResultPage.getProductNameOnQuickView();
 		Double ExpectedPrice1=productResultPage.getProductPriceOnQuickView();
 	 	Double ExpectedShipping1=productdetailspage.getShippingPrice();
 
-
-		Assert.assertEquals(cartPage.getNumberOfProductinCart(),2);
+        Assert.assertEquals(cartPage.getNumberOfProductinCart(),2);
         Assert.assertEquals(cartPage.getNameOfproductInCart(1), Expectedname);
 		Assert.assertEquals(cartPage.getNameOfproductInCart(0), Expectedname1);
-        Assert.assertEquals(cartPage.getProductPrice(1), ExpectedPrice);
-        Assert.assertEquals(cartPage.getProductPrice(2), ExpectedPrice1);
-        Assert.assertEquals(cartPage.getShippingPrice(1), ExpectedShipping);
-        Assert.assertEquals(cartPage.getShippingPrice(2), ExpectedShipping1);
+        Assert.assertEquals(cartPage.getProductPrice(2), ExpectedPrice);
+        Assert.assertEquals(cartPage.getProductPrice(1), ExpectedPrice1);
+        Assert.assertEquals(cartPage.getShippingPrice(2), ExpectedShipping);
+        Assert.assertEquals(cartPage.getShippingPrice(1), ExpectedShipping1);
 
-        // cartPage.VerifyUserIsAbleToRemoveProduct(1); 
-		// cartPage.VerifyUserIsAbleToRemoveProduct(0);
-		 Assert.assertNotEquals(productResultPage.NoOfProductInCart(),0);
+        cartPage.VerifyUserIsAbleToRemoveProduct(1); 
+        Thread.sleep(1000);
+        cartPage.VerifyUserIsAbleToRemoveProduct(0);
 		//cartPage.VerifyUserIsAbleTocloseTheAddToCartPage();
 
 	}	  
@@ -86,22 +88,22 @@ import utility.Reports;
          productdetails.clickToClickhereToBuyProduct();
          CartPage cartPage=new CartPage(driver);
          cartPage.clickOnProceedToCheck();
-	     loginPage lp=new loginPage(driver);
+	     loginPage loginpage=new loginPage(driver);
          Thread.sleep(3000);
-         lp.checkUserIsAbleToEnterTheMoblieNo("9511253656");
-         lp.clickOnContinue();
+         loginpage.checkUserIsAbleToEnterTheMoblieNo("9511253656");
+         loginpage.clickOnContinue();
          Thread.sleep(20000);
-         lp. verifyIfUserIsClickOnSumbittButtonAfterEntreTheOtp();
-         lp.selectTitleWhileenteringTheAddress(2);
-         lp.verifyUserIsableToEnterFirstnameInFirstnameField();
-         lp. verifyUserIsableToEnterLastnameInLastnameField();
-         lp.verifyUserIsableToEnterAddresInAddresField();
-         lp.verifyUserIsableToEnterLandMarkInLandMarkField();
-         lp.verifyUserIsableToEnterPinCoadeInPinCodeField();
-         lp.verifyUserIsableToEnterMobileNumberInMobileNumberField();
-         lp.verifyUserIsableToEnterMobilelandlineNumberInlandlineNumberField();
-         lp.clickOnAddNewAddress(); 
-		 lp.verfyIfUserIsAbleToSelectShippingAdd();
+         loginpage. verifyIfUserIsClickOnSumbittButtonAfterEntreTheOtp();
+         loginpage.selectTitleWhileenteringTheAddress(2);
+         loginpage.verifyUserIsableToEnterFirstnameInFirstnameField();
+         loginpage. verifyUserIsableToEnterLastnameInLastnameField();
+         loginpage.verifyUserIsableToEnterAddresInAddresField();
+         loginpage.verifyUserIsableToEnterLandMarkInLandMarkField();
+         loginpage.verifyUserIsableToEnterPinCoadeInPinCodeField();
+         loginpage.verifyUserIsableToEnterMobileNumberInMobileNumberField();
+         loginpage.verifyUserIsableToEnterMobilelandlineNumberInlandlineNumberField();
+         loginpage.clickOnAddNewAddress(); 
+         loginpage.verfyIfUserIsAbleToSelectShippingAdd();
 		 PaymentPage paymentPage = new PaymentPage(driver);
 		 paymentPage.verifyToCheckUserIsAbleToSelectPaymentMode(0);
 		 //paymentPage.clickOnPlaceOrder();

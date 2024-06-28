@@ -15,7 +15,7 @@ public class CartPage  extends BasePage{
     @FindBy (xpath="//li[@class='head_UPrice']")private List<WebElement>productPrice;
     @FindBy (xpath="//li[@class='head_ship']")private List<WebElement>shippingPrice;
     @FindBy (xpath="//a[@title='Close']")private WebElement closeOnCart;
-    @FindBy (xpath="//p[@class='chintu']//a")private List<WebElement> remove;
+    @FindBy (xpath="//a[text()='Remove']")private List<WebElement> remove;
     @FindBy (xpath="(//a[@class='red_button2'])[2]")private WebElement proceedToCheck;
     
     public CartPage(WebDriver driver) {

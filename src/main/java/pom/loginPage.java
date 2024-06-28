@@ -25,7 +25,7 @@ public class loginPage extends BasePage {
 	@FindBy (xpath="//input[@name='mobile']")private WebElement mobileNo;
 	@FindBy (xpath="//input[@name='landline']")private WebElement landLineNo;
 	@FindBy (xpath="//a[@class='red_button_normal']")private WebElement clickOnAdd;
-	@FindBy (xpath="(//span[text()=' Ship to This Address '])[3]")private WebElement shipOnThisAddress;
+	@FindBy (xpath="(//span[text()=' Ship to This Address '])[2]")private WebElement shipOnThisAddress;
 	
   public loginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);

@@ -20,7 +20,7 @@ public class ProductResultPage extends BasePage {
 	@FindBy (xpath = "//div[@id='square_Details']//span[@class='offer-price']")private WebElement productPriceOnQuickView;
 	@FindBy(xpath="(//span[@class='ship-price'])[1]")private List<WebElement> shippingPrice;
     @FindBy (xpath="(//span[@class='font-bold'])[4]")private WebElement TotalNoOfProduct;
-
+    @FindBy (xpath="(//a[@class='link_Continue'])[2]")private WebElement continueShopping;
 	public ProductResultPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
@@ -60,4 +60,7 @@ public class ProductResultPage extends BasePage {
 	  return TotalNoOfProduct.getText();
 		
 	}
+    public void verifyUserIsAbleToClickOnContinueShopping() {
+    	continueShopping.click();
+    }
 }
