@@ -41,7 +41,7 @@ import pom.NaaptalHomePage;
 	
   @Test
   public void VerifyIfUserisClickOnAddCart(){
-	test=reports.createTest("VerifyIfUserisClickOnAddCart");
+    test=reports.createTest("VerifyIfUserisClickOnAddCart");
 	NaaptalHomePage naaptalhomepage=new NaaptalHomePage (driver);
     naaptalhomepage.cart();
 	Assert.assertTrue(naaptalhomepage.ClickOnAddToCartPage());
