@@ -1,5 +1,7 @@
 package pom;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,9 +14,11 @@ public class ProductdetailsPage extends BasePage {
 	@FindBy(xpath = "//div[@id='square_Details']//span[@class='offer-price']")
 	private WebElement productPriceOnQuickView;
 
-	@FindBy(xpath = "//span[text()='Click here to Buy']")
+	@FindBy(xpath = "//a[@class='red_button icon chat']")
 	private WebElement ClickHereToBuyProduct;
 
+	@FindBy(xpath="//div[@class='boxSelection']//li")private List<WebElement> size;
+	
 	public ProductdetailsPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
@@ -35,5 +39,8 @@ public class ProductdetailsPage extends BasePage {
 
 	public void clickToClickhereToBuyProduct() {
 		ClickHereToBuyProduct.click();
+	}
+	public void selectSize(int index) {
+		size.get(index).click();
 	}
 }

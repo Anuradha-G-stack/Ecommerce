@@ -1,6 +1,8 @@
 package test;
 
 import java.io.IOException;
+import java.util.NoSuchElementException;
+
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
@@ -23,6 +25,7 @@ import utility.Reports;
 
 @Listeners(test.listeners.class)
 public class CartTest extends BaseTest {
+	int size;
 
 	@BeforeMethod
 	public void openApplication() {
@@ -80,14 +83,24 @@ public class CartTest extends BaseTest {
 
 		NaaptalHomePage naaptalhomepage = new NaaptalHomePage(driver);
 
-		naaptalhomepage.enterProductTosearch("toys");
+		naaptalhomepage.enterProductTosearch("coocker");
 		naaptalhomepage.ClickOnsearch();
 		ProductResultPage productResultPage = new ProductResultPage(driver);
 		productResultPage.selectDesiredProduct(0);
 
 		switchToChildBrowser();
 		ProductdetailsPage productdetails = new ProductdetailsPage(driver);
-		productdetails.clickToClickhereToBuyProduct();
+
+		try {
+           productdetails.selectSize(0);
+        } 
+		catch (Exception e) {
+			e.printStackTrace();
+		} 
+		finally {
+			productdetails.clickToClickhereToBuyProduct();
+		}
+
 		CartPage cartPage = new CartPage(driver);
 		cartPage.clickOnProceedToCheck();
 		loginPage loginpage = new loginPage(driver);

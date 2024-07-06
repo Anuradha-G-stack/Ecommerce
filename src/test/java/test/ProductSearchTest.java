@@ -26,9 +26,9 @@ public class ProductSearchTest extends BaseTest {
 	public void VerifyIfUserisAbletoSearchProduct() {
 		test = reports.createTest("VerifyIfUserisAbletoSearchProduct");
 		NaaptalHomePage naaptalhomepage = new NaaptalHomePage(driver);
-		naaptalhomepage.enterProductTosearch("coocker");
+		naaptalhomepage.enterProductTosearch("shooes");
 		naaptalhomepage.ClickOnsearch();
-		Assert.assertTrue(driver.getTitle().contains("coocker"));
+		Assert.assertTrue(driver.getTitle().contains("shooes"));
 		Assert.assertTrue(naaptalhomepage.getNumberOfProductDisplayed() > 0);
 
 	}
