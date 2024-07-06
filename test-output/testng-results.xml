@@ -1,21 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="16" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-06T12:34:01 IST" name="Default suite" finished-at="2024-07-06T12:34:49 IST" duration-ms="47203">
+  <suite started-at="2024-07-06T14:13:09 IST" name="Suite" finished-at="2024-07-06T14:20:50 IST" duration-ms="461509">
     <groups>
     </groups>
-    <test started-at="2024-07-06T12:34:01 IST" name="Default test" finished-at="2024-07-06T12:34:49 IST" duration-ms="47203">
-      <class name="test.CartTest">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.CartTest@6771beb3]" started-at="2024-07-06T12:34:02 IST" name="openApplication" finished-at="2024-07-06T12:34:12 IST" duration-ms="9853" status="PASS">
+    <test started-at="2024-07-06T14:13:09 IST" name=" ChromeTest" finished-at="2024-07-06T14:15:56 IST" duration-ms="166820">
+      <class name="test.ProductSearchTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:14:12 IST" name="openApplication" finished-at="2024-07-06T14:14:21 IST" duration-ms="8399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method signature="VerifyIfUserIsAbleToProceedCheckout()[pri:0, instance:test.CartTest@6771beb3]" started-at="2024-07-06T12:34:12 IST" name="VerifyIfUserIsAbleToProceedCheckout" finished-at="2024-07-06T12:34:49 IST" duration-ms="36905" status="PASS">
+        <test-method signature="VerifyIfUserisAbletoClickOnlogin()[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:14:21 IST" name="VerifyIfUserisAbletoClickOnlogin" finished-at="2024-07-06T14:14:21 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisAbletoClickOnlogin -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:14:21 IST" name="openApplication" finished-at="2024-07-06T14:14:29 IST" duration-ms="8661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserisAbletoDisplayShoppingcatagories()[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:14:29 IST" name="VerifyIfUserisAbletoDisplayShoppingcatagories" finished-at="2024-07-06T14:14:30 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisAbletoDisplayShoppingcatagories -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:14:30 IST" name="openApplication" finished-at="2024-07-06T14:14:42 IST" duration-ms="12336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserisAbletoSearchProduct()[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:14:42 IST" name="VerifyIfUserisAbletoSearchProduct" finished-at="2024-07-06T14:14:44 IST" duration-ms="2393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisAbletoSearchProduct -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:14:44 IST" name="openApplication" finished-at="2024-07-06T14:14:59 IST" duration-ms="14941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserisClickOnAddCart()[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:14:59 IST" name="VerifyIfUserisClickOnAddCart" finished-at="2024-07-06T14:15:00 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisClickOnAddCart -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:15:00 IST" name="openApplication" finished-at="2024-07-06T14:15:10 IST" duration-ms="10208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserisClickOnTrackOrder()[pri:0, instance:test.ProductSearchTest@74e52ef6]" started-at="2024-07-06T14:15:10 IST" name="VerifyIfUserisClickOnTrackOrder" finished-at="2024-07-06T14:15:12 IST" duration-ms="1844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisClickOnTrackOrder -->
+      </class> <!-- test.ProductSearchTest -->
+      <class name="test.CartTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.CartTest@5bf0d49]" started-at="2024-07-06T14:13:09 IST" name="openApplication" finished-at="2024-07-06T14:13:19 IST" duration-ms="9442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyAddProductFromOrderDetails()[pri:0, instance:test.CartTest@5bf0d49]" started-at="2024-07-06T14:13:19 IST" name="VerifyAddProductFromOrderDetails" finished-at="2024-07-06T14:13:27 IST" duration-ms="7862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddProductFromOrderDetails -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.CartTest@5bf0d49]" started-at="2024-07-06T14:13:27 IST" name="openApplication" finished-at="2024-07-06T14:13:35 IST" duration-ms="8500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserIsAbleToProceedCheckout()[pri:0, instance:test.CartTest@5bf0d49]" started-at="2024-07-06T14:13:35 IST" name="VerifyIfUserIsAbleToProceedCheckout" finished-at="2024-07-06T14:14:12 IST" duration-ms="36915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyIfUserIsAbleToProceedCheckout -->
       </class> <!-- test.CartTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test.ViewProductDeatilsTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ViewProductDeatilsTest@6ed3ccb2]" started-at="2024-07-06T14:15:12 IST" name="openApplication" finished-at="2024-07-06T14:15:27 IST" duration-ms="14882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="addproducttocart()[pri:0, instance:test.ViewProductDeatilsTest@6ed3ccb2]" started-at="2024-07-06T14:15:27 IST" name="addproducttocart" finished-at="2024-07-06T14:15:32 IST" duration-ms="5276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproducttocart -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ViewProductDeatilsTest@6ed3ccb2]" started-at="2024-07-06T14:15:32 IST" name="openApplication" finished-at="2024-07-06T14:15:48 IST" duration-ms="16371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyIfUserIsViewProductDetailsFromQuickView()[pri:0, instance:test.ViewProductDeatilsTest@6ed3ccb2]" started-at="2024-07-06T14:15:48 IST" name="verifyIfUserIsViewProductDetailsFromQuickView" finished-at="2024-07-06T14:15:56 IST" duration-ms="7194" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='square_Details']//span[@class='offer-price']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9625260f48e3d75af7929d72a45cb556, findElement {using=xpath, value=//div[@id='square_Details']//span[@class='offer-price']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52778/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9625260f48e3d75af7929d72a45cb556]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='square_Details']//span[@class='offer-price']"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9625260f48e3d75af7929d72a45cb556, findElement {using=xpath, value=//div[@id='square_Details']//span[@class='offer-price']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52778}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52778/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9625260f48e3d75af7929d72a45cb556
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+at pom.ProductResultPage.getProductPriceOnQuickView(ProductResultPage.java:65)
+at test.ViewProductDeatilsTest.verifyIfUserIsViewProductDetailsFromQuickView(ViewProductDeatilsTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfUserIsViewProductDetailsFromQuickView -->
+      </class> <!-- test.ViewProductDeatilsTest -->
+    </test> <!--  ChromeTest -->
+    <test started-at="2024-07-06T14:15:57 IST" name="EdgeTest" finished-at="2024-07-06T14:20:50 IST" duration-ms="293970">
+      <class name="test.ProductSearchTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:17:44 IST" name="openApplication" finished-at="2024-07-06T14:18:06 IST" duration-ms="22453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserisAbletoClickOnlogin()[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:18:06 IST" name="VerifyIfUserisAbletoClickOnlogin" finished-at="2024-07-06T14:18:06 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisAbletoClickOnlogin -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:18:06 IST" name="openApplication" finished-at="2024-07-06T14:18:32 IST" duration-ms="25519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserisAbletoDisplayShoppingcatagories()[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:18:32 IST" name="VerifyIfUserisAbletoDisplayShoppingcatagories" finished-at="2024-07-06T14:18:32 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisAbletoDisplayShoppingcatagories -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:18:32 IST" name="openApplication" finished-at="2024-07-06T14:18:45 IST" duration-ms="12237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserisAbletoSearchProduct()[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:18:45 IST" name="VerifyIfUserisAbletoSearchProduct" finished-at="2024-07-06T14:18:47 IST" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisAbletoSearchProduct -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:18:47 IST" name="openApplication" finished-at="2024-07-06T14:19:04 IST" duration-ms="17591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserisClickOnAddCart()[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:19:04 IST" name="VerifyIfUserisClickOnAddCart" finished-at="2024-07-06T14:19:05 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisClickOnAddCart -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:19:05 IST" name="openApplication" finished-at="2024-07-06T14:19:33 IST" duration-ms="28531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserisClickOnTrackOrder()[pri:0, instance:test.ProductSearchTest@7d8704ef]" started-at="2024-07-06T14:19:33 IST" name="VerifyIfUserisClickOnTrackOrder" finished-at="2024-07-06T14:19:35 IST" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserisClickOnTrackOrder -->
+      </class> <!-- test.ProductSearchTest -->
+      <class name="test.CartTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.CartTest@17f7cd29]" started-at="2024-07-06T14:15:57 IST" name="openApplication" finished-at="2024-07-06T14:16:11 IST" duration-ms="14087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyAddProductFromOrderDetails()[pri:0, instance:test.CartTest@17f7cd29]" started-at="2024-07-06T14:16:11 IST" name="VerifyAddProductFromOrderDetails" finished-at="2024-07-06T14:16:34 IST" duration-ms="22890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddProductFromOrderDetails -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.CartTest@17f7cd29]" started-at="2024-07-06T14:16:34 IST" name="openApplication" finished-at="2024-07-06T14:17:00 IST" duration-ms="26670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="VerifyIfUserIsAbleToProceedCheckout()[pri:0, instance:test.CartTest@17f7cd29]" started-at="2024-07-06T14:17:00 IST" name="VerifyIfUserIsAbleToProceedCheckout" finished-at="2024-07-06T14:17:44 IST" duration-ms="43603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToProceedCheckout -->
+      </class> <!-- test.CartTest -->
+      <class name="test.ViewProductDeatilsTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ViewProductDeatilsTest@13b6aecc]" started-at="2024-07-06T14:19:35 IST" name="openApplication" finished-at="2024-07-06T14:20:10 IST" duration-ms="34873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="addproducttocart()[pri:0, instance:test.ViewProductDeatilsTest@13b6aecc]" started-at="2024-07-06T14:20:10 IST" name="addproducttocart" finished-at="2024-07-06T14:20:17 IST" duration-ms="7499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproducttocart -->
+        <test-method is-config="true" signature="openApplication(java.lang.String)[pri:0, instance:test.ViewProductDeatilsTest@13b6aecc]" started-at="2024-07-06T14:20:17 IST" name="openApplication" finished-at="2024-07-06T14:20:40 IST" duration-ms="23219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyIfUserIsViewProductDetailsFromQuickView()[pri:0, instance:test.ViewProductDeatilsTest@13b6aecc]" started-at="2024-07-06T14:20:40 IST" name="verifyIfUserIsViewProductDetailsFromQuickView" finished-at="2024-07-06T14:20:50 IST" duration-ms="9771" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='square_Details']//span[@class='offer-price']"}
+  (Session info: MicrosoftEdge=126.0.2592.87)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d6717a9cc4d91bc96f94ff4c026a0303, findElement {using=xpath, value=//div[@id='square_Details']//span[@class='offer-price']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.87, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53466}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53466/devtoo..., se:cdpVersion: 126.0.2592.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6717a9cc4d91bc96f94ff4c026a0303]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='square_Details']//span[@class='offer-price']"}
+  (Session info: MicrosoftEdge=126.0.2592.87)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d6717a9cc4d91bc96f94ff4c026a0303, findElement {using=xpath, value=//div[@id='square_Details']//span[@class='offer-price']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.87, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53466}, msedge: {msedgedriverVersion: 126.0.2592.87 (883b9421f9ba..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53466/devtoo..., se:cdpVersion: 126.0.2592.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6717a9cc4d91bc96f94ff4c026a0303
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+at pom.ProductResultPage.getProductPriceOnQuickView(ProductResultPage.java:65)
+at test.ViewProductDeatilsTest.verifyIfUserIsViewProductDetailsFromQuickView(ViewProductDeatilsTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfUserIsViewProductDetailsFromQuickView -->
+      </class> <!-- test.ViewProductDeatilsTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
